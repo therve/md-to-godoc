@@ -1,4 +1,4 @@
-module github.com/sectioneight/md-to-godoc
+module github.com/therve/md-to-godoc
 
 go 1.18
 

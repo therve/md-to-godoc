@@ -25,7 +25,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/sectioneight/md-to-godoc/render"
+	"github.com/therve/md-to-godoc/render"
 
 	"github.com/russross/blackfriday"
 )
