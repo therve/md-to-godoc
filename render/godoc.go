@@ -245,7 +245,7 @@ func (g *GodocRenderer) blockCode(out io.Writer, text []byte, lang string) {
 
 // DocumentHeader writes the beginning of the package documentation.
 func (g *GodocRenderer) DocumentHeader(out *bytes.Buffer) {
-	out.WriteString("// Package " + g.pkg + " is the ")
+	out.WriteString("// Package ")
 }
 
 // DocumentFooter writes the end of the package documentation
